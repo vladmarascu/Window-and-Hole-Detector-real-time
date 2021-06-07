@@ -4,7 +4,7 @@
 # Main entrance points detection script: uses the calibration.py script and returns the detected object types (windows/holes), the area in pixels and the computed area in meters.
 
 import cv2
-import calibration # load calibration.py from the same folder first to obtain PPM at a set distance
+#import calibration # load calibration.py from the same folder first to obtain PPM at a set distance
 import numpy as np
  
 # Initialize videostream 
